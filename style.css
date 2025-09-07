@@ -1,0 +1,70 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #F4F4F4 ;/* El color del fondo de la página web */
+    color:#5988FF; /* El color del texto*/ 
+    margin: 15 px;
+   
+  
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    color: darkblue; /* El color de la cabecera */
+    text-align: center;
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+  
+  
+}
+h1:hover { animation: color-change 3s infinite; }
+
+.titulo-principal{
+    font-size: 60;
+    font-weight: 400;
+}
+
+#titulo-secundario{
+    font-size: 40;
+    font-weight: 600;
+
+}
+form{
+    background-color: #d8d5d5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight:bold;
+
+}
+
+#nombre,#correo, #clave{
+    width: 100%;
+    padding:8px;
+    border:1px solid #aaa;
+    border-radius:5px;
+    margin-bottom:  15px;
+}
+#enviar{
+    background-color:darkblue;
+    
+}
+
+
